@@ -9,6 +9,11 @@ our $LIST = {
 
 Just a list of one-letter modules on CPAN.
 
+For CPAN author, What one-letter name can I use that's available? (Requires
+<prog:setop> and <prog:cpanmodules> CLIs.)
+
+    % setop --diff <(perl -E'say for "A".."Z","a".."z","_"') <(cpanmodules ls-entries OneLetter)
+
 _
     entries => [
         {module=>'B'},
