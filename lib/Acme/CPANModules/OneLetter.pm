@@ -11,6 +11,10 @@ our $LIST = {
 
 Just a list of one-letter modules on CPAN.
 
+To produce this list, you can also use <prog:lcpan>:
+
+    % lcpan mods -l -x --or `perl -E'say for "A".."Z","a".."z","_"'`
+
 For CPAN author, What one-letter name can I use that's available? (Requires
 <prog:setop> and <prog:cpanmodules> CLIs.)
 
