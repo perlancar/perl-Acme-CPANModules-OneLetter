@@ -1,6 +1,8 @@
 package Acme::CPANModules::OneLetter;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 our $LIST = {
@@ -24,6 +26,7 @@ _
         {module=>'P'},
         {module=>'U'},
         {module=>'V'},
+        {module=>'Z'},
         {module=>'c'},
     ],
 };
