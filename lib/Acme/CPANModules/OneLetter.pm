@@ -19,11 +19,14 @@ For CPAN author, What one-letter name can I use that's available? (Requires
 _
     entries => [
         {module=>'B'},
+        {module=>'D'},
+        {module=>'H'},
         {module=>'K'},
         {module=>'L'},
         {module=>'M'},
         {module=>'O'},
         {module=>'P'},
+        {module=>'T'},
         {module=>'U'},
         {module=>'V'},
         {module=>'Z'},
